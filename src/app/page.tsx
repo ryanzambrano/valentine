@@ -39,12 +39,12 @@ export default function Page() {
       {yesPressed ? (
         <>
         <img src="https://tenor.com/view/selini-minini-line-friends-line-friends-gif-10847435256194580894.gif" />
-        <div className="text-4xl font-bold my-4">Thanks for being my Valentine! ❤️ </div>
+        <div className="text-4xl font-bold my-4">Thanks for being my Valentine! ❤️</div>
         </>
       ) : (
         <>
           <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
-          <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
+          <h1 className="text-4xl my-4 text-center">Will you be my Valentine?</h1>
           <div>
             <button
               className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
